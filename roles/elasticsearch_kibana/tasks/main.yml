@@ -1,0 +1,22 @@
+---
+- name: Install ElasticSearch
+  ansible.builtin.yum:
+    name: elasticsearch
+    state: present
+
+- name: Install Kibana
+  ansible.builtin.yum:
+    name: kibana
+    state: present
+
+- name: Start ElasticSearch
+  ansible.builtin.systemd:
+    name: elasticsearch
+    state: started
+    enabled: yes
+
+- name: Start Kibana
+  ansible.builtin.systemd:
+    name: kibana
+    state: started
+    enabled: yes

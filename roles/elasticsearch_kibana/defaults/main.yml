@@ -1,0 +1,5 @@
+---
+elasticsearch_version: '7.x'
+kibana_version: '7.x'
+elasticsearch_heap_size: '1g'
+kibana_server_port: '5601'

@@ -1,0 +1,5 @@
+---
+- hosts: elk_server
+  become: yes
+  roles:
+    - elasticsearch_kibana

@@ -1,0 +1,5 @@
+---
+- hosts: prometheus_server
+  become: yes
+  roles:
+    - prometheus

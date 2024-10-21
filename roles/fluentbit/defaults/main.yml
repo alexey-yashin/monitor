@@ -1,0 +1,6 @@
+---
+fluentbit_elasticsearch_host: 'localhost'
+fluentbit_elasticsearch_port: '9200'
+fluentbit_elasticsearch_index: 'fluentbit'
+fluentbit_service_user: 'fluentbit'
+fluentbit_service_group: 'fluentbit'
